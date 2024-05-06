@@ -1,0 +1,116 @@
+* {
+  transition: 0.5s ease-in-out;
+}
+.chat-container {
+  height: 85vh;
+  display: grid;
+  grid-template-rows: 14% 76% 10%;
+}
+.friend-part {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  background-color: #bf88fd;
+  border-radius: 0rem 3rem 3rem 2rem;
+}
+.img-name-friend {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin-left: 3rem;
+}
+.friend-name {
+  font-size: large;
+  font-weight: bold;
+  color: #fdecfe;
+}
+.friend-img {
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 50%;
+}
+.friend-call {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.call-img {
+  height: 3.7rem;
+  width: auto;
+  cursor: pointer;
+}
+.send-section {
+  display: grid;
+}
+.send-input {
+  border-radius: 3rem 0 0 3rem;
+  background-color: #ffffffcc;
+  border: 2px solid white;
+  padding: 1rem;
+  padding-right: 2.3rem;
+  transition: 0.5s ease-in-out;
+  outline: none;
+  width: -webkit-fill-available;
+}
+.input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+.send-input:focus {
+  border: 2px solid #bf88fd;
+  outline: none;
+}
+.send-img {
+  height: 35px;
+  width: 35px;
+}
+.send-button {
+  height: 50.4px;
+  width: 100px;
+  background-color: #bf88fd;
+  border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: -8%;
+}
+.real-chat-section {
+  display: flex;
+  flex-direction: column-reverse;
+  overflow-y: scroll;
+  gap: 1.3rem;
+  padding: 1rem;
+}
+.real-chat-section::-webkit-scrollbar {
+  display: none;
+}
+.message {
+  width: 100%;
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+}
+.sender {
+  flex-direction: row-reverse;
+}
+.message-img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+.message-div {
+  padding: 1rem;
+  border-radius: 3rem;
+  max-width: 45%;
+}
+.sender-div {
+  background-color: #e980fc;
+}
+.reciver-div {
+  background-color: #bf88fd;
+}

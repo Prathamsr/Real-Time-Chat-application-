@@ -1,0 +1,64 @@
+.logo{
+    height: 5rem;
+    width: 5rem;
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+
+}
+.form-container{
+    max-width: 500px;
+    max-height: 700px;
+    min-width: 300px;
+    background-color:#F4A9FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+input{
+    background-color:#ffffffcc;
+    border: 2px solid white;
+    padding: 1rem;
+    border-radius: 0.35rem;
+    transition: 0.5s ease-in-out;outline: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap:2rem;
+}
+button{
+    background-color: #bf88fd;
+    color: white;
+    cursor: pointer;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+    transition: 0.5s ease-in-out;
+    border: 2px solid #c799fd;
+    font-weight: bold;
+}
+button:hover{
+    text-transform: none;
+    border: 2px solid white;
+    
+}
+input:focus{
+    text-transform: none;
+    border: 2px solid #E980FC;
+    outline: none;
+}
+.loginlink{
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.loginlink:hover{
+    text-decoration: underline;
+}
+span{
+    text-align: center;
+}

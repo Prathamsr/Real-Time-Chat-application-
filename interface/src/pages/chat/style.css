@@ -1,0 +1,17 @@
+.container{
+    height: 85vh;
+    width: 85vw;
+    background-color: #F4A9FC;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    border-radius: 3rem;
+}
+@media screen and (min-width: 720px)and (max-width:1080px) {
+    .container {
+        grid-template-columns: 35% 65%;
+    }
+  }
+  img{
+    width: 8rem;
+    height: 8rem;
+  }

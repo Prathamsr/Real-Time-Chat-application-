@@ -1,0 +1,81 @@
+.avatar-window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  background-color: #e980fc;
+  height: 100vh;
+  width: 100vw;
+}
+.loader {
+  height: 100%;
+  width: 100%;
+}
+
+.title-container {
+  color: white;
+  text-align: center;
+}
+.avatars {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  border: 0.4rem solid transparent;
+  padding: 0.4rem;
+  border-radius: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+}
+img {
+  transition: 0.5s ease-in-out;
+}
+.submit-btn {
+  background-color: #bf88fd;
+  color: white;
+  padding: 1rem 2rem;
+  border: 2px solid #bf88fd;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.submit-btn:hover {
+  background-color: #bf88fd;
+  text-transform: uppercase;
+}
+.selected {
+  border: 0.4rem solid #bf88fd;
+}
+.reload {
+  background: transparent;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  padding: 0.5rem;
+}
+.new-avatars{
+  height: 3rem;
+  width: 3rem;
+}
+.new-avatars-div{
+  height: 4rem;
+  width: 4rem;
+}
+.btn-bar{
+  display: flex;
+  gap: 1rem;
+}
+.avatar-img{
+  height: 8rem;
+  
+}

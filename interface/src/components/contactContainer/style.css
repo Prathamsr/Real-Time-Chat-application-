@@ -1,0 +1,153 @@
+.contact-window {
+  height: 85vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 17.5% 70% 12.5%;
+  background-color: #e980fc;
+  border-radius: 3rem 0rem 0rem 3rem;
+}
+.search-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2px;
+  gap: 1rem;
+  padding-left: 10px;
+}
+.search-img-chat {
+  height: 3.6rem;
+  width: 3.6rem;
+  border-radius: 0.5rem;
+  background-color: #bf88fd;
+  padding: 0.2rem;
+  border: 0.1rem solid #bf88fd;
+  cursor: pointer;
+}
+.search-img-chat:hover {
+  border: 0.1rem solid #fdecfe;
+}
+.search-name-chat {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  color: #fdecfe;
+}
+.search-input {
+  width: 80%;
+}
+.search-input:focus {
+  text-transform: none;
+  border: 2px solid #bf88fd;
+  outline: none;
+}
+.profile-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2px;
+  gap: 1rem;
+  background-color: #bf88fd;
+  border-radius: 0 0 0 3rem;
+}
+.profile-pic {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+.profile-name {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  color: #fdecfe;
+}
+.contact {
+  display: grid;
+  grid-template-columns: 30% 67%;
+  gap: 3%;
+  background-color: #bf88fd;
+  margin: 0 1rem;
+  padding: 0.35rem;
+  border-radius: 1rem;
+  border: 0.2rem solid #bf88fd;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.contact-pic {
+  height: 3.8rem;
+  width: 3.8rem;
+  border-radius: 50%;
+}
+.contact-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  font-weight: bold;
+  color: #fdecfe;
+}
+.contacts-section {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  justify-content: stretch;
+}
+.contacts-section::-webkit-scrollbar {
+  display: none;
+}
+.contact-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selected-contact {
+  border: 0.2rem solid #fdecfe;
+}
+.robo-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.robo-image {
+  height: 30rem;
+  width: auto;
+}
+.current-user-name {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  color: #ffffff;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #fdecfe;
+  border-radius: 50%;
+  margin: 3px 0;
+}
+.menu-buttons {
+  position: absolute;
+  left: -97px;
+  top: -142px;
+  display: none;
+  z-index: 10;
+}
+.menu-button {
+  font-size: unset;
+  padding: 0.5rem;
+  width: 7.1rem;
+  margin-bottom: 3px;
+}
+.set-menu-change{
+  display: block;
+}
